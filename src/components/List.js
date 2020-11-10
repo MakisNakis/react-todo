@@ -2,8 +2,6 @@ import React from 'react'
 
 import './scss/List.scss'
 
-import EditField from './EditField'
-
 function List() {
   const [notes, setNote] = React.useState([])
 
@@ -13,7 +11,6 @@ function List() {
 
   return (
     <div className={"container"}>
-      <EditField />
       <div className={"list"}>
         {notes.map((note, index) => <p key={index}>{note}</p>)}
       </div>
