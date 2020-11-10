@@ -1,0 +1,25 @@
+.container{
+  text-align: center;
+  font-size: 5vh;
+}
+
+.list {
+  height: 80vh;
+  overflow-y: auto;
+  margin: 2vh;
+}
+
+.buttonAdd {
+  border-radius: 50%;
+  background-color: #18FF8C;
+  width: 12vh;
+  height: 12vh;
+  font-weight: 5;
+  border: none;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+.buttonAdd:focus {
+  outline:none;
+}
