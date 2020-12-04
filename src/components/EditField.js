@@ -1,7 +1,5 @@
 import React from 'react'
-import { Icon, Input, Button } from 'semantic-ui-react'
 
-import 'semantic-ui-css/semantic.min.css'
 import './scss/EditField.scss'
 
 function EditField () {
@@ -17,30 +15,12 @@ function EditField () {
   }, [inputValue])
 
   return (
-    // <div>
-    //   <input
-
-    //     ref={addRecordRef}
-    //     type={"text"}
-    //   />
-    //   <Button
-    //     icon={}
-    //     onClick={() => changeInputValue()}
-    //   ></Button>
-    // </div>
+    <div>
+      342
+    </div>
 
 
-    <Input
-      action={{
-        color: 'teal',
-        icon: 'check',
-        onClick: () => changeInputValue()
-      }}
-      actionPosition='right'
-      className={"editField"}
-      ref={addRecordRef}
-      // onChange={changeInputValue}
-    />
+
   )
 }
 
