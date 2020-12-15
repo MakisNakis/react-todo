@@ -3,13 +3,15 @@ import React from 'react'
 
 import List from './components/List'
 import EditField from './components/EditField'
+import Tree from './components/Tree'
 
 function App(props) {
 
   return (
     <div>
       {/* <EditField/> */}
-      <List />
+      {/* <List /> */}
+      <Tree />
     </div>
   );
 }

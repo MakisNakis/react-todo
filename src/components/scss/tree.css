@@ -1,0 +1,74 @@
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+
+  background-color: #d1cee0;
+}
+
+.trunk,
+.branch {
+  border-radius: 25px;
+  background: linear-gradient(to right, #7f3333, #4d2020);
+}
+
+.trunk {
+  position: relative;
+
+  width: 10px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.branch {
+  position: absolute;
+
+  width: 5px;
+  transform-origin: bottom center;
+}
+
+.branch:nth-child(even) {
+  transform: rotate(60deg);
+}
+
+.branch:nth-child(odd) {
+  transform: rotate(-60deg);
+}
+
+.branch:nth-child(1) {
+  top: 180px;
+
+  height: 180px;
+}
+
+.branch:nth-child(2) {
+  top: 160px;
+
+  height: 150px;
+}
+
+.branch:nth-child(3) {
+  top: 120px;
+
+  height: 150px;
+}
+
+.leaf {
+  position: absolute;
+
+  width: 15px;
+  height: 15px;
+
+  border-radius: 75% 0 75% 0;
+  background: linear-gradient(to right, #77ed9e, #53ad71);
+}
+
+.leaf:nth-child(1) {
+    top: 5px;
+  }
+
+  .leaf:nth-child(2) {
+    top: 20px;
+  }
